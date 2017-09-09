@@ -287,16 +287,16 @@
             <input optionStore="newsfeed_label" type="JetOptionLabel" />
           </entrydata>
           <entrydata>
-            <input optionStore="TextArea_1" type="JetOptionTextArea" />
+            <input optionStore="TextArea_1" type="JetOptionTextArea"><![CDATA[https://wordsmith.org/awad/rss1.xml]]></input>
           </entrydata>
           <entrydata>
-            <input optionStore="maxcount" type="JetOptionTextArea" />
+            <input optionStore="maxcount" type="JetOptionTextArea"><![CDATA[1]]></input>
           </entrydata>
           <entrydata>
             <input optionStore="maxcount_Label" type="JetOptionLabel" />
           </entrydata>
           <entrydata>
-            <input optionStore="DescCharacterLimit" type="JetOptionTextArea" />
+            <input optionStore="DescCharacterLimit" type="JetOptionTextArea"><![CDATA[200]]></input>
           </entrydata>
           <entrydata>
             <input optionStore="DescCharacterLimit_Label" type="JetOptionLabel" />
@@ -305,7 +305,7 @@
             <input optionStore="Description_Label" type="JetOptionLabel" />
           </entrydata>
           <entrydata>
-            <input optionStore="Description" type="JetOptionTextArea" />
+            <input optionStore="Description" type="JetOptionTextArea"><![CDATA[In addition to your daily assigned vocabularies, a randomly selected word, from wordsmith.org, will be added to your weekly quiz. This will be an extra credit.]]></input>
           </entrydata>
         </optionpage>
       </cparameter>
