@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interactions starPageVersion="20">
+    <interaction allowThemes="1" code="os.swf" codebase="RSSMaker" dataFile="base\main.xml" launchFile="index.htm" name="RSSMaker" source="RSSMaker.lxml" type="Flash" version="3.0">
+        <translations>
+            <translation input="base\page.xsl" output="page.htm" />
+            <translation input="base\page.xsl" output="index.htm" />
+            <translation input="base\print.xsl" output="print.htm" />
+            <translation input="base\sec508Redirect.xsl" output="base\sec508.htm" />
+            <translation input="base\sec508.xsl" output="sec508.htm" />
+            <translation input="base\theme.xsl" inputtree="theme\default.xml" output="system\css\feedEk.css" />
+        </translations>
+        <parameters>
+            <information columns="40" commonName="SplashPage" encoded="0" htmlPage="http://www.lodestarlearning.com/help/en/rssmaker_1_0/html/index.html" name="RSSMaker Help" promptsize="100" rows="20" />
+            <cparameter columns="10" commonName="Presenter Profile Page" encoded="0" encryptionType="1" name="Presenter_Profile_Page">
+                <!--  General Page Elements -->
+                <optionStore name="Title">
+                    <options>
+                        <option type="-1">
+                            <rule type="visibility" value="1" />
+                            <rule type="bgColor" value="ffffff" />
+                            <rule type="font_size" value="14" />
+                            <rule type="x" value="820" />
+                            <rule type="y" value="50" />
+                            <rule type="width" value="250" />
+                            <rule type="height" value="30" />
+                            <rule type="align" value="center" />
+                            <rule type="sessionVar" value="Titles" />
+                            <rule type="sessionVarType" value="set" />
+                            <rule type="embedFonts" value="1" />
+                            <rule type="tag" value="index" />
+                        </option>
+                    </options>
+                </optionStore>
+                <optionStore name="Title_Label">
+                    <options>
+                        <option type="-1">
+                            <rule type="bgColor" value="ffffff" />
+                            <rule type="bgAlpha" value="0" />
+                            <rule type="fgColor" value="000000" />
+                            <rule type="font_face" value="Arial" />
+                            <rule type="html" value="1" />
+                            <rule type="style" value="0" />
+                            <rule type="visibility" value="1" />
+                            <rule type="font_size" value="14" />
+                            <rule type="x" value="820" />
+                            <rule type="y" value="30" />
+                            <rule type="width" value="400" />
+                            <rule type="height" value="30" />
+                            <rule type="align" value="center" />
+                            <rule type="sessionVar" value="Titles" />
+                            <rule type="sessionVarType" value="set" />
+                            <rule type="embedFonts" value="1" />
+                            <rule type="text" value="Page ID:" />
+                        </option>
+                    </options>
+                </optionStore>
+                <optionStore name="newsfeed_label">
+                    <options>
+                        <option type="-1">
+                            <rule type="bgColor" value="ffffff" />
+                            <rule type="bgAlpha" value="0" />
+                            <rule type="fgColor" value="000000" />
+                            <rule type="font_face" value="Arial" />
+                            <rule type="html" value="1" />
+                            <rule type="style" value="0" />
+                            <rule type="visibility" value="1" />
+                            <rule type="font_size" value="14" />
+                            <rule type="x" value="120" />
+                            <rule type="y" value="100" />
+                            <rule type="width" value="175" />
+                            <rule type="height" value="30" />
+                            <rule type="align" value="center" />
+                            <rule type="sessionVar" value="Titles" />
+                            <rule type="sessionVarType" value="set" />
+                            <rule type="embedFonts" value="1" />
+                            <rule type="text" value="News Feed URL" />
+                        </option>
+                    </options>
+                </optionStore>
+                <optionStore name="maxcount_Label">
+                    <options>
+                        <option type="-1">
+                            <rule type="bgColor" value="ffffff" />
+                            <rule type="bgAlpha" value="0" />
+                            <rule type="fgColor" value="000000" />
+                            <rule type="font_face" value="Arial" />
+                            <rule type="html" value="1" />
+                            <rule type="style" value="0" />
+                            <rule type="visibility" value="1" />
+                            <rule type="font_size" value="14" />
+                            <rule type="x" value="120" />
+                            <rule type="y" value="240" />
+                            <rule type="width" value="75" />
+                            <rule type="height" value="50" />
+                            <rule type="align" value="center" />
+                            <rule type="sessionVar" value="Titles" />
+                            <rule type="sessionVarType" value="set" />
+                            <rule type="embedFonts" value="1" />
+                            <rule type="text" value="Number of items:" />
+                        </option>
+                    </options>
+                </optionStore>
+                <optionStore name="maxcount">
+                    <options>
+                        <option type="-1">
+                            <rule type="visibility" value="1" />
+                            <rule type="bgColor" value="F7F7F7" />
+                            <rule type="font_size" value="14" />
+                            <rule type="x" value="205" />
+                            <rule type="y" value="240" />
+                            <rule type="width" value="250" />
+                            <rule type="height" value="30" />
+                            <rule type="align" value="center" />
+                            <rule type="sessionVar" value="Titles" />
+                            <rule type="sessionVarType" value="set" />
+                            <rule type="embedFonts" value="1" />
+                            <rule type="tag" value="index" />
+                        </option>
+                    </options>
+                </optionStore>
+                <optionStore name="DescCharacterLimit_Label">
+                    <options>
+                        <option type="-1">
+                            <rule type="bgColor" value="ffffff" />
+                            <rule type="bgAlpha" value="0" />
+                            <rule type="fgColor" value="000000" />
+                            <rule type="font_face" value="Arial" />
+                            <rule type="html" value="1" />
+                            <rule type="style" value="0" />
+                            <rule type="visibility" value="1" />
+                            <rule type="font_size" value="14" />
+                            <rule type="x" value="120" />
+                            <rule type="y" value="290" />
+                            <rule type="width" value="75" />
+                            <rule type="height" value="50" />
+                            <rule type="align" value="center" />
+                            <rule type="sessionVar" value="Titles" />
+                            <rule type="sessionVarType" value="set" />
+                            <rule type="embedFonts" value="1" />
+                            <rule type="text" value="Character Limit:" />
+                        </option>
+                    </options>
+                </optionStore>
+                <optionStore name="DescCharacterLimit">
+                    <options>
+                        <option type="-1">
+                            <rule type="visibility" value="1" />
+                            <rule type="bgColor" value="F7F7F7" />
+                            <rule type="font_size" value="14" />
+                            <rule type="x" value="205" />
+                            <rule type="y" value="290" />
+                            <rule type="width" value="250" />
+                            <rule type="height" value="30" />
+                            <rule type="align" value="center" />
+                            <rule type="sessionVar" value="Titles" />
+                            <rule type="sessionVarType" value="set" />
+                            <rule type="embedFonts" value="1" />
+                            <rule type="tag" value="index" />
+                        </option>
+                    </options>
+                </optionStore>
+                <optionStore name="TextArea_1">
+                    <options>
+                        <option type="-1">
+                            <rule type="visibility" value="1" />
+                            <rule type="x" value="120" />
+                            <rule type="y" value="140" />
+                            <rule type="height" value="50" />
+                            <rule type="width" value="610" />
+                            <rule type="bgColor" value="F7F7F7" />
+                            <rule type="bgAlpha" value="0" />
+                            <rule type="fgColor" value="000000" />
+                            <rule type="font_face" value="Arial" />
+                            <rule type="font_size" value="14" />
+                            <rule type="html" value="0" />
+                            <rule type="embedFonts" value="1" />
+                        </option>
+                    </options>
+                </optionStore>
+                <optionStore name="HTMLTextArea_1">
+                    <options>
+                        <option type="-1">
+                            <rule type="font_face" value="Arial" />
+                            <rule type="font_size" value="14" />
+                            <rule type="visibility" value="1" />
+                            <rule type="x" value="120" />
+                            <rule type="y" value="150" />
+                            <rule type="height" value="400" />
+                            <rule type="width" value="950" />
+                            <rule type="bgColor" value="F7F7F7" />
+                            <rule type="bgAlpha" value="0" />
+                            <rule type="html" value="1" />
+                            <rule type="toolbar" value="1" />
+                            <rule type="embedFonts" value="1" />
+                            <rule type="scrollbars" value="1" />
+                        </option>
+                    </options>
+                </optionStore>
+                <optionStore name="Label_1">
+                    <options>
+                        <option type="-1">
+                            <rule type="visibility" value="1" />
+                            <rule type="x" value="120" />
+                            <rule type="y" value="20" />
+                            <rule type="height" value="30" />
+                            <rule type="width" value="200" />
+                            <rule type="bgColor" value="ffffff" />
+                            <rule type="bgAlpha" value="0" />
+                            <rule type="fgColor" value="000000" />
+                            <rule type="font_face" value="Arial" />
+                            <rule type="font_size" value="14" />
+                            <rule type="html" value="1" />
+                            <rule type="embedFonts" value="1" />
+                            <rule type="text" value="Title" />
+                        </option>
+                    </options>
+                </optionStore>
+                <optionStore name="Label_2">
+                    <options>
+                        <option type="-1">
+                            <rule type="visibility" value="1" />
+                            <rule type="x" value="120" />
+                            <rule type="y" value="120" />
+                            <rule type="height" value="30" />
+                            <rule type="width" value="200" />
+                            <rule type="bgColor" value="ffffff" />
+                            <rule type="bgAlpha" value="0" />
+                            <rule type="fgColor" value="000000" />
+                            <rule type="font_face" value="Arial" />
+                            <rule type="font_size" value="14" />
+                            <rule type="html" value="1" />
+                            <rule type="embedFonts" value="1" />
+                            <rule type="text" value="Body" />
+                        </option>
+                    </options>
+                </optionStore>
+                <optionStore name="Description_Label">
+                    <options>
+                        <option type="-1">
+                            <rule type="bgColor" value="ffffff" />
+                            <rule type="bgAlpha" value="0" />
+                            <rule type="fgColor" value="000000" />
+                            <rule type="font_face" value="Arial" />
+                            <rule type="html" value="1" />
+                            <rule type="style" value="0" />
+                            <rule type="visibility" value="1" />
+                            <rule type="font_size" value="14" />
+                            <rule type="x" value="120" />
+                            <rule type="y" value="370" />
+                            <rule type="width" value="75" />
+                            <rule type="height" value="30" />
+                            <rule type="align" value="center" />
+                            <rule type="sessionVar" value="Titles" />
+                            <rule type="sessionVarType" value="set" />
+                            <rule type="embedFonts" value="1" />
+                            <rule type="text" value="Description" />
+                        </option>
+                    </options>
+                </optionStore>
+                <optionStore name="Description">
+                    <options>
+                        <option type="-1">
+                            <rule type="visibility" value="1" />
+                            <rule type="bgColor" value="F7F7F7" />
+                            <rule type="font_size" value="14" />
+                            <rule type="x" value="120" />
+                            <rule type="y" value="410" />
+                            <rule type="width" value="610" />
+                            <rule type="height" value="200" />
+                            <rule type="align" value="center" />
+                            <rule type="sessionVar" value="Titles" />
+                            <rule type="sessionVarType" value="set" />
+                            <rule type="embedFonts" value="1" />
+                            <rule type="tag" value="index" />
+                        </option>
+                    </options>
+                </optionStore>
+                <!--  Option Page Start -->
+                <optionpage bbHeight="100" bbWidth="200" bbx="-14" bby="-10" cloneable="1" node="1362685823544" orderable="1" promptSize="0">
+                    <entrydata>
+                        <input optionStore="Title" type="JetOptionTextArea" />
+                    </entrydata>
+                    <entrydata>
+                        <input optionStore="Title_Label" type="JetOptionLabel"><![CDATA[Page ID:]]></input>
+                    </entrydata>
+                    <entrydata>
+                        <input optionStore="newsfeed_label" type="JetOptionLabel"><![CDATA[News Feed URL]]></input>
+                    </entrydata>
+                    <entrydata>
+                        <input optionStore="TextArea_1" type="JetOptionTextArea" />
+                    </entrydata>
+                    <entrydata>
+                        <input optionStore="maxcount" type="JetOptionTextArea" />
+                    </entrydata>
+                    <entrydata>
+                        <input optionStore="maxcount_Label" type="JetOptionLabel"><![CDATA[Number of items:]]></input>
+                    </entrydata>
+                    <entrydata>
+                        <input optionStore="DescCharacterLimit" type="JetOptionTextArea" />
+                    </entrydata>
+                    <entrydata>
+                        <input optionStore="DescCharacterLimit_Label" type="JetOptionLabel"><![CDATA[Character Limit:]]></input>
+                    </entrydata>
+                    <entrydata>
+                        <input optionStore="Description_Label" type="JetOptionLabel"><![CDATA[Description]]></input>
+                    </entrydata>
+                    <entrydata>
+                        <input optionStore="Description" type="JetOptionTextArea" />
+                    </entrydata>
+                </optionpage>
+            </cparameter>
+        </parameters>
+    </interaction>
+</interactions>
+
